@@ -1,0 +1,5 @@
+Flask==3.0.3
+Flask_Cors==4.0.1
+protobuf
+gunicorn==20.1.0
+vertexai
