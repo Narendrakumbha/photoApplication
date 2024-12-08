@@ -7,11 +7,11 @@ import requests
 import vertexai
 from vertexai.preview.generative_models import GenerativeModel, Image
 
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "composed-slice-437714-a8-8a1fc021fd53api.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/home/narendrakumbha21/composed-slice-437714-a8-ee04f5e05d32api.json"
 
 # Initialize Google Cloud Storage client
 BUCKET_NAME = "pythonimageappbucket"
-CREDENTIALS_FILE = "composed-slice-437714-a8-54016734dfa9.json"
+CREDENTIALS_FILE = "/home/narendrakumbha21/composed-slice-437714-a8-2ca3df64eca2.json"
 UPLOAD_FOLDER = 'static'
 
 app = Flask(__name__)
